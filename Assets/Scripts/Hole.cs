@@ -6,8 +6,8 @@ public class Hole : MonoBehaviour {
 	public GameObject mole;
 	public float aliveTime = 1;
 
-	public int intervalMin = 2;
-	public int intervalMax = 10;
+	public float intervalMin = 2f;
+	public float intervalMax = 10f;
 
 	// Use this for initialization
 	void Start () {

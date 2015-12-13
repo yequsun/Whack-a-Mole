@@ -13,7 +13,7 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		scoreText.text = GameController.gc.score.ToString ();
+		scoreText.text = GameController.gc.score.ToString ()+"/1000";
 	
 	}
 }
